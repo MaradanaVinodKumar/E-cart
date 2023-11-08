@@ -1,0 +1,516 @@
+{
+    "Elec":[
+
+        {
+            "image":"https://img.freepik.com/free-photo/blender-wooden-table-kitchen-make-yourself-fresh-concept-healthy-diet_639032-206.jpg?w=1380&t=st=1698845943~exp=1698846543~hmac=aa91a96a962baed2176d640e4c380e63b88eb41289bfbbbafebbb2288f1e5d66",
+            "rating":2,
+            "price":5000,
+            "discount":40,
+            "details": "Blender and wooden table in kitchen, make yourself fresh. the concept of a healthy diet",
+            "name":"Elec",
+            "id":1
+        },
+        {
+            "image":"https://img.freepik.com/free-photo/black-food-processor-sits-wooden-table-with-plant-background_188544-27852.jpg?t=st=1698846157~exp=1698849757~hmac=3fb7c74f4e29c8331379298adee4fec3384a1f4b190c6c3783e4888961a4073e&w=1380",
+            "rating":4,
+            "price":2999,
+            "discount":33,
+            "details": "A black food processor sits on a wooden table with a plant in the background",
+            "name":"Elec",
+            "id":2
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/washing-machine-realistic-icon-set-three-product-household-appliances-different-position_1284-27876.jpg?w=1380&t=st=1698846379~exp=1698846979~hmac=d63ceb767524572fc2f4d25517098452984a5760e02038ff2def968cb6ed9a78",
+            "rating":1,
+            "price":30999,
+            "discount":20,
+            "details": "Free vector washing machine realistic icon set three product of household appliances in different position",
+            "name":"Elec",
+            "id":3
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/realistic-gas-stove-set-with-two-isolated-images-open-closed-hood-with-electric-cooktop-vector-illustration_1284-82636.jpg?w=1380&t=st=1698846442~exp=1698847042~hmac=585065aa4106b7395258a6c4c252e7045958250ba1c40e23e9ba536177d832ea",
+            "rating":1,
+            "price":1999,
+            "discount":5,
+            "details": "Free vector realistic gas stove set with two isolated images of open and closed hood with electric cooktop vector",
+            "name":"Elec",
+            "id":4
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/set-realistic-kitchen-with-food-inside-open-door-white-isolated_1284-28765.jpg?w=1380&t=st=1698846503~exp=1698847103~hmac=71c25d20da04c54f51290f658f3005b43a638c9c3d755ba2515e1db6364297a5",
+            "rating":2,
+            "price":6000,
+            "discount":40,
+            "details": "Free vector set of realistic kitchen with food inside and open door on white isolated",
+            "name":"Elec",
+            "id":5
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/oven-electric-kitchen-appliances-open-closed-stove-white-color-front-view_107791-4544.jpg?w=1480&t=st=1698846533~exp=1698847133~hmac=b3c3c7fc0882ee506f78d9ad7da98837bed29a33b6f7b85581c32c96e733dd00",
+            "rating":4,
+            "price":8999,
+            "discount":33,
+            "details": "Oven, electric kitchen appliances, open or closed stove of white color front view",
+            "name":"Elec",
+            "id":6
+        },
+        {
+            "image":"https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176681.jpg?w=1380&t=st=1698895919~exp=1698896519~hmac=90c16ae0d84057d8121486188205c2e90d34ff6ae2ac3241d64ac565322bc80a",
+            "rating":1,
+            "price":345,
+            "discount":20,
+            "details": "Free photo service maintenance worker repairing",
+            "name":"Elec",
+            "id":7
+        },
+        {
+            "image":"https://img.freepik.com/free-photo/blender-wooden-table-kitchen-make-yourself-fresh-concept-healthy-diet_639032-206.jpg?w=1380&t=st=1698845943~exp=1698846543~hmac=aa91a96a962baed2176d640e4c380e63b88eb41289bfbbbafebbb2288f1e5d66",
+            "rating":1,
+            "price":9342,
+            "discount":5,
+            "details": "Blender and wooden table in kitchen, make yourself fresh. the concept of a healthy diet",
+            "name":"Elec",
+            "id":8
+        },
+        {
+            "image":"https://img.freepik.com/free-photo/black-food-processor-sits-wooden-table-with-plant-background_188544-27852.jpg?t=st=1698846157~exp=1698849757~hmac=3fb7c74f4e29c8331379298adee4fec3384a1f4b190c6c3783e4888961a4073e&w=1380",
+            "rating":5,
+            "price":244,
+            "discount":10,
+            "details": "A black food processor sits on a wooden table with a plant in the background",
+            "name":"Elec",
+            "id":9
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/realistic-gas-stove-set-with-two-isolated-images-open-closed-hood-with-electric-cooktop-vector-illustration_1284-82636.jpg?w=1380&t=st=1698846442~exp=1698847042~hmac=585065aa4106b7395258a6c4c252e7045958250ba1c40e23e9ba536177d832ea",
+            "rating":2,
+            "price":100,
+            "discount":40,
+            "details": "Free vector realistic gas stove set with two isolated images of open and closed hood with electric cooktop vector",
+            "name":"Elec",
+            "id":10
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/set-realistic-kitchen-with-food-inside-open-door-white-isolated_1284-28765.jpg?w=1380&t=st=1698846503~exp=1698847103~hmac=71c25d20da04c54f51290f658f3005b43a638c9c3d755ba2515e1db6364297a5",
+            "rating":4,
+            "price":234,
+            "discount":33,
+            "details": "set realistic kitchen with food inside open door white isolated",
+            "name":"Elec",
+            "id":11
+        },
+        {
+            "image":"https://img.freepik.com/free-photo/blender-wooden-table-kitchen-make-yourself-fresh-concept-healthy-diet_639032-206.jpg?w=1380&t=st=1698845943~exp=1698846543~hmac=aa91a96a962baed2176d640e4c380e63b88eb41289bfbbbafebbb2288f1e5d66",
+            "rating":1,
+            "price":345,
+            "discount":20,
+            "details": "blender wooden table kitchen make yourself fresh concept healthy diet",
+            "name":"Elec",
+            "id":12
+        },
+        {
+            "image":"https://img.freepik.com/free-vector/realistic-gas-stove-set-with-two-isolated-images-open-closed-hood-with-electric-cooktop-vector-illustration_1284-82636.jpg?w=1380&t=st=1698846442~exp=1698847042~hmac=585065aa4106b7395258a6c4c252e7045958250ba1c40e23e9ba536177d832ea",
+            "rating":5,
+            "price":2344,
+            "discount":10,
+            "details": "realistic gas stove set with two isolated images open closed hood with electric cooktop vector illustration",
+            "name":"Elec",
+            "id":13
+        }
+
+    ],
+    "Home":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":5
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Home",
+            "id":6
+        }
+    ],
+    "Automobile":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Automobile",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Automobile",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Automobile",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Automobile",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Automobile",
+            "id":5
+        }
+    ],
+    "Household":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":5
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Household",
+            "id":6
+        }
+    ],
+    "Clothing":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":5
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Clothing",
+            "id":6
+        }
+    ],
+    "Sports":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Sports",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Sports",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Sports",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Sports",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Sports",
+            "id":5
+        }
+    ],
+    "Toys":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":5
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":6
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Toys",
+            "id":7
+        }
+    ],
+    "Personal":[
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":1
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":2
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":3
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":4
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":5
+        }
+        ,
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":6
+        },
+        {
+            "image":"url",
+            "rating":3,
+            "price":234,
+            "discount":23,
+            "details": "Electric Appliances",
+            "name":"Personal",
+            "id":7
+        }
+    ]
+}

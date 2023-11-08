@@ -1,0 +1,188 @@
+<!-- 100 zoom 4.7.0-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="E cart home.css">
+    <script src="E cart home.js"></script>
+</head>
+<body onload="loaded()">
+    <section>
+        <div id="E-cart"><i class="fa fa-crop " id="logo" aria-hidden="true"></i> E-cart</div>
+    </section>
+    <section>
+        <div id="cata-bg"><button>Categories <i class="fa fa-list-alt" aria-hidden="true"></i></button> </div>
+        <div id="search-bg"><div><input type="text" placeholder="Search..." > <i class="fa fa-search" aria-hidden="true"></i> </div></div>
+        <div id="cart-bg"><button ><i class="fa fa-shopping-cart cart-sym" aria-hidden="true" class="cart-sym"></i> Cart <i id="space"></i></button></div>
+        <!-- | this is the catagi.. box | -->
+        <div id="cata-items-back">
+        <div id="cata-items">
+            
+            <div class="cata-item" onclick="cate('Elec')"> Electric Appliances.</div>
+            <div class="cata-item" onclick="cate('Home')">Home Furnishing.</div>
+            <div class="cata-item" onclick="cate('Automobile')">Automobile accessories.</div>
+            <div class="cata-item" onclick="cate('Household')">Household items.</div>
+            <div class="cata-item" onclick="cate('Clothing')">Clothing and Fashion.</div>
+            <div class="cata-item" onclick="cate('Sports')">Sports and Fitness.</div>
+            <div class="cata-item" onclick="cate('Toys')">Toys and Baby Care.</div>
+            <div class="cata-item" onclick="cate('Personal')">Personal Grooming.</div>
+        </div>
+        </div>
+
+        <div id="cart-items-back">
+            <div id="cart-items">
+                <div id="Cart-head">Cart</div>
+                <!-- <div class="cart-item">  
+                    <div class="image item-image"></div>
+                    <div class="item-rating ">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price ">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                    
+                </div>
+                <div class="cart-item">
+                    <div class="image item-image "></div>
+                    <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                </div>
+                <div class="cart-item ">
+                    <div class="item-image image"></div>
+                    <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                </div>
+                <div class="cart-item ">
+                    <div class="item-image image"></div>
+                    <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                </div>
+                <div class="cart-item ">
+                    <div class="item-image image"></div>
+                    <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                </div>
+                <div class="cart-item ">
+                    <div class="item-image image"></div>
+                    <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                    <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                    <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="main-dashboard">
+        <div id="center">
+            
+        <div id="items-bg">
+            <!-- <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div>
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-rating">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+            </div> -->
+        </div>
+        <div id="each-item-bg">
+        <div id="each-item">
+            
+            <div id="each-item-close"><i id="each-item-close-sym" class="fa fa-close" aria-hidden="true"></i></div>    
+            <div class="item-image-details"></div>
+                <div class="item-rating-details">Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true" ></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i> </div>
+                <div class="item-price-details">price: <span>1200/-</span> <span>12%</span> </div>
+                <div class="item-details-details">product details : <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque.</span></div>
+                <div id="intimation"><span><i class="fa fa-taxi" aria-hidden="true"></i></span><span><i class="fa fa-repeat" aria-hidden="true"></i></span><span><i class="fa fa-money" aria-hidden="true"></i></span><span><i class="fa fa-fire" aria-hidden="true"></i></span></div>
+                <div id="button-bg">
+                    <button>Add to cart</button>
+                    <button >Buy</button>
+                </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="payments">
+        <div id="Buy-bg">
+            <div id="heading">Address</div>
+            <div id="sym-tracking"><span id="one"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span><span id="one-line">----------------</span><span id="two"><i class="fa fa-money" aria-hidden="true"></i></span><span id="two-line">----------------</span><span id="three"><i class="fa fa-check-circle" aria-hidden="true"></i></span></div>
+            <div id="form">
+                <!-- <div><label for="">Name : </label><input type="text"><label for="Phone">Phone :</label><input type="text"></div>
+                <div><label for="">Pin :</label><input type="text"><label for="Disc">Disc.</label><input type="text"></div>
+                <div><label for="">Village :</label><input type="text"><label for="House">House.</label><input type="text"></div>
+                <div><label for="Add">Address (for external)</label></div>
+                <div><textarea name="" id="" cols="94" rows="2" ></textarea></div> -->
+                <!-- <div id="method-sym"><span><i class="fa fa-paypal" aria-hidden="true"></i></span><span><i class="fa fas fa-money" aria-hidden="true"></i></span><span><i class="fa fa-google-plus-circle" aria-hidden="true"></i></i></span><span><i class="fa-brands fa-amazon-pay"><i class="fa fa-amazon" aria-hidden="true"></i></i></span><span><i class="fa fa-credit-card" aria-hidden="true"></i></i></span></div>
+                <div id="payment-methods">
+                <div class="padding"><input type="radio" name="method"><label for=""> Internet Banking</label></div>
+                <div class="padding"><input type="radio" name="method" checked><label for=""> Cash on Delivery</label></div>
+                <div class="padding"><input type="radio" name="method"><label for=""> Equated Monthly Installments (EMI)</label></div>
+                <div class="padding"><input type="radio" name="method"><label for="">  E-Gift Vouchers</label></div>
+                <div class="padding"><input type="radio" name="method"><label for="">  E-cart Pay Later</label></div>
+                <div class="padding"><input type="radio" name="method"><label for="">  UPI</label></div>
+                <div class="padding"><input type="radio" name="method"><label for=""> Wallet</label></div>
+                </div> -->
+                <!-- <div id="conform">
+                    <div id="tick-mark"><i class="fa fa-check-circle" aria-hidden="true"></i><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>
+                    <div id="place-order"><button >Place Order</button></div>
+                </div> -->
+
+            </div>
+            <div id="next-button" ><button id="cancel" onclick="backs()">cancel</button><button id="next" onclick="nexts()">Next</button></div>
+        </div>
+    </section>
+</body>
+</html>
